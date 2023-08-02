@@ -10,6 +10,7 @@ Steps:
    ```
    cd /usr/lib/jvm
    sudo su -
+   apt update
    tar -xvzf /home/kali/Downloads/jdk.tar.gz
    update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_381/bin/java 20000
    update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8.0_381/bin/javac 20000
