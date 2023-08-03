@@ -48,6 +48,12 @@
    
       <img width="600" alt="Maven_Repository__org_apache_hadoop_»_hadoop-streaming_»_3_2_4" src="https://github.com/VikasShavi/DSAI/assets/83757578/c83c3e7a-66e3-4096-935f-dcf3b76fb37e">
 
+4. ### Python3 installation
+      ```
+      sudo apt install python3
+      sudo ln -sf /usr/bin/python3 /usr/bin/python
+      ```
+   
 ### Everything is setup now.
 
        
