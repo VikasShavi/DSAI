@@ -46,11 +46,17 @@
 
 4. ### Streaming Jar Download
 
-      a. Go to this link(https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-streaming/3.2.4) and download the file shown below
+      * Go to this link(https://jar-download.com/artifacts/org.apache.hadoop/hadoop-streaming) and download the file
+
+      <img width="600" alt="Download_org_apache_hadoop_JAR_files_with_all_dependencies" src="https://github.com/VikasShavi/DSAI/assets/83757578/858ef9e0-985d-48f6-ba2c-5bd172cc21b8">
+
+      If the above does not work, try the following
+   
+      * Go to this link(https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-streaming/3.2.4) and download the file shown below
    
       <img width="600" alt="Maven_Repository__org_apache_hadoop_»_hadoop-streaming_»_3_2_4" src="https://github.com/VikasShavi/DSAI/assets/83757578/c83c3e7a-66e3-4096-935f-dcf3b76fb37e">
 
-5. ### Python3 installation
+6. ### Python3 installation
       ```
       sudo apt install python3
       sudo ln -sf /usr/bin/python3 /usr/bin/python
