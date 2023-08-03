@@ -8,6 +8,8 @@
       sudo apt install default-jdk
       readlink -f /usr/bin/java | sed "s:bin/java::"
       ```
+      This should output the installed path, copy paste it somewhere. Now this should be used for the value of JAVA_HOME evrywhere. In my case it was "/usr/lib/jvm/java-11-openjdk-amd64/". But you use what you got from the output above.
+   
       b. Modifing environment file
       ```
       sudo nano /etc/environment
@@ -26,7 +28,7 @@
       ```
       the echo command should output "/usr/lib/jvm/java-11-openjdk-amd64/" indicating proper installation.
 
-2. ### Hadoop Installation
+3. ### Hadoop Installation
 
       a. Go to this link(https://hadoop.apache.org/releases.html) and download the marked file shown below:
 
@@ -42,13 +44,13 @@
      ```
      If the last command run perfectly, then hadoop is installed perfectly.
 
-3. ### Streaming Jar Download
+4. ### Streaming Jar Download
 
       a. Go to this link(https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-streaming/3.2.4) and download the file shown below
    
       <img width="600" alt="Maven_Repository__org_apache_hadoop_»_hadoop-streaming_»_3_2_4" src="https://github.com/VikasShavi/DSAI/assets/83757578/c83c3e7a-66e3-4096-935f-dcf3b76fb37e">
 
-4. ### Python3 installation
+5. ### Python3 installation
       ```
       sudo apt install python3
       sudo ln -sf /usr/bin/python3 /usr/bin/python
