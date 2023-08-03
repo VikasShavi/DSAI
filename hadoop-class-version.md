@@ -14,7 +14,7 @@
       ```
       Add this line at the end of file, 
       ```
-      JAVA_HOME="/usr/lib/jvm/java-11-op enjdk-amd64/"
+      JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
       ```
       then close it with "Ctrl-X".
 
@@ -24,7 +24,7 @@
       source /etc/environment
       echo $JAVA_HOME
       ```
-      the echo command should output "/usr/lib/jvm/java-11-op enjdk-amd64/" indicating proper installation.
+      the echo command should output "/usr/lib/jvm/java-11-openjdk-amd64/" indicating proper installation.
 
 2. ### Hadoop Installation
 
